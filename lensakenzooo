@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>lensakenzooo</title>
+ 
+</head>
+<body>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+    .container {
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      width: 90%;
+      height: 1200px;
+      flex-direction: column;
+    }
+    h3{
+      color:white;
+    }
+    a {
+      font-weight: bold;
+      text-decoration: none;
+      color: white;
+    }
+    .list li {
+      display: inline;
+      color: white;
+      
+    }
+    .ban {
+      flex: 1;
+      background: black;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0px 20px;
+    }
+    .footer {
+      flex: 1;
+      background: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0px 20px;
+    }
+    .list {
+      list-style: none;
+      display: inline-block;
+    }
+    .hero {
+      flex: 4;
+      background: url(https://static.republika.co.id/uploads/images/inpicture_slide/coding-ilustrasi-_160406100902-246.jpg);
+      /* object-fit: cover; */
+      background-size: cover;
+      /* width: 100%; */
+      background-position-y: -380px;
+      /* background-position-y: 400px; */
+      /* object-fit: cover; */
+      /* align-items: stretch; */
+    }
+    .content {
+      flex: 8;
+      display: flex;
+      flex-direction: row;
+      background-color: skyblue;
+    }
+    .com {
+      padding: 5px;
+      overflow: hidden;
+      width: 80%;
+      background: white;
+      margin: auto;
+      height: 50px;
+      margin: 5px auto;
+      border-radius: 10px;
+    }
+  </style>
+  <div class="container">
+    <div class="ban">
+      <h3>BangKenzooo</h3>
+      <ul class="list">
+        <li> <a href="">Home</a> </li>
+        <li>|</li>
+        <li> <a href="">Contact</a></li>
+        <li>|</li>
+        <li> <a href="">About</a></li>
+      </ul>
+    </div>
+    <div class="hero">
+      <!-- <img style="max-width: 100%;  " src="https://i.pinimg.com/originals/70/d6/b3/70d6b3aaf2857dce05601505b8ca7db0.jpg" alt=""> -->
+    </div>
+    <div style="height: 750px;" class="content">
+      <div style="flex:1;background:bluesea;overflow-y: scroll; overflow-y:scroll; 
+               position:relative;
+              padding: 10pxpx;">
+        <center>
+          <h4>Comment</h4>
+        </center>
+        <div class="com">
+          <p>anjay.</p>
+        </div>
+        <div class="com">
+          <p>anjay.</p>
+        </div>
+        <div class="com">
+          <p>anjay.</p>
+        </div>
+        <div class="com">
+          <p>anjay.</p>
+        </div>
+        <div class="com">
+          <p>anjay.</p>
+        </div>
+        <div class="com">
+          <p>anjay.</p>
+        </div>
+        <div class="com">
+          <p>anjay.</p>
+        </div>
+        <div class="com">
+          <p>anjay.</p>
+        </div>
+        <div class="com">
+          <p>anjay.</p>
+        </div>
+        <div class="com">
+          <p>anjay.</p>
+        </div>
+        <div class="com">
+          <p>anjay.</p>
+        </div>
+        <div class="com">
+          <p>anjay.</p>
+          <div class="com">
+          <p>anjay.</p>
+        </div>
+        <div class="com">
+          <p>anjay.</p>
+        </div>
+        <div class="com">
+          <p>anjay.</p>
+        </div>
+        <div class="com">
+          <p>anjay.</p>
+        </div>
+        <div class="com">
+          <p>anjay.</p>
+        </div>
+        <div class="com">
+          <p>anjay.</p>
+        </div>
+        </div>
+      </div>
+      <div style="flex:3;padding: 20px;
+      position:relative; overflow: auto;
+     ">
+       <center> <h3>lensa kenzooo</h3></center>
+        <br>
+        <div style="text-align:center;">
+        <p>lensa kenzooo merupakan sebuah akun instagram milik seorang pelajar bernama Muhammad Syahid Muharram
+        </p>
+       <p> akun instagram ini berisi foto foto hasil kelompok orang yang tidak bukan adalah rekan dari pemilik akun sendiri
+       </p> 
+      <p>  mulai dari foto biasa sampai terkonsep ada disana
+        berikut adalah foto si pemilik akun
+       
+      </p>
+        </div>
+        
+        <center>
+            <img src="https://pbs.twimg.com/profile_images/1322813286111301633/9AAmwYR0_400x400.jpg" style="margin:10px;height:300px;width:300px;border-radius:10px;" alt="">
+            
+            <p> hehe njayyyyy </p>
+      
+        </center>
+      
+      </div>
+    </div>
+    <div class="footer">
+      <ul class="list" style=" list-style:none;">
+        <li> <a href="">Home</a> </li>
+        <li>|</li>
+        <li> <a href="">Contact</a></li>
+        <li>|</li>
+        <li> <a href="">About</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
